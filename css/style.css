@@ -1,0 +1,37 @@
+/*
+Error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 33 of F:\WEB_development\Uber\src\sass\style.sass
+
+28:   &link
+29:     color: #ffffff
+30:     font-size: 15px
+31:     font-weight: 300
+32:   &item
+33: 	border-right: 2px dotted black
+34: 	padding-right: 28px
+35: 
+36: .subheader
+37:   position: absolute
+38:   top: 50px
+
+Backtrace:
+F:\WEB_development\Uber\src\sass\style.sass:33
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:494:in `block in tabulate'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each_with_index'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `tabulate'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+F:/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+F:/Koala/bin/sass:22:in `load'
+F:/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 33 of F:\WEB_development\Uber\src\sass\style.sass\A \A 28:   &link\A 29:     color: #ffffff\A 30:     font-size: 15px\A 31:     font-weight: 300\A 32:   &item\A 33: 	border-right: 2px dotted black\A 34: 	padding-right: 28px\A 35: \A 36: .subheader\A 37:   position: absolute\A 38:   top: 50px"; }
